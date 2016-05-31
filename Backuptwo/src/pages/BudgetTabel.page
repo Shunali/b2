@@ -1,0 +1,91 @@
+<apex:page Standardcontroller="budget__c" sidebar="false">
+ <center><apex:form >
+ <body>
+
+<table style="width:50%" >Budget of the year
+  <tr>
+    <td>Month</td>
+    <td>Service1 <br>Amount</br></td>      
+    <td>Service2 <br>Amount</br></td>
+    <td>Service3<br>Amount</br></td>
+  </tr>
+  <tr>
+    <td>Jan</td>
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>    
+  </tr>
+  <tr>
+    <td>Feb</td>
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>      
+  </tr>
+    <tr>
+    <td>Mar</td>
+     <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>           
+  </tr>
+    <tr>
+    <td>April</td>
+     <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>          
+  </tr>
+    <tr>
+    <td>May</td>
+   <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>         
+  </tr>
+    <tr>
+    <td>June</td>
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>            
+  </tr>
+    <tr>
+    <td>July</td>
+   <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>           
+  </tr>
+    <tr>
+    <td>Aug</td>
+   <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>           
+  </tr>
+    <tr>
+    <td>Sept</td>
+   <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+  </tr>
+    <tr>
+    <td>Oct</td>
+     <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>    
+  </tr>
+   <tr>
+    <td>Nov</td>
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>         
+  </tr>
+   <tr>
+    <td>Dec</td>
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>     
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td> 
+    <td><apex:inputfield value="{!budget__c.Amount__c}" style="width:100px" /></td>          
+  </tr>
+  
+</table>
+
+</body>
+  
+        <apex:commandButton action="{!save}" value="Save"/>
+  </apex:form> </center>
+</apex:page>

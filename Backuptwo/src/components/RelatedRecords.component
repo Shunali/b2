@@ -1,0 +1,40 @@
+<apex:component controller="relatedRecordsController" access="global">
+
+   <apex:dataTable value="{!relatedRecords}" var="Re_Result"  border="below" cellspacing="20%" columnsWidth="50%"  width="70%" >
+
+        <apex:facet name="header">table header</apex:facet>
+
+        <apex:column >
+
+                <apex:facet name="header">Title</apex:facet>
+
+            <apex:facet name="footer">column footer</apex:facet>
+
+            <apex:outputText value="{!Re_Result.Title__c}"/>
+
+        </apex:column>
+
+        <apex:column >
+
+            <apex:facet name="header">Link</apex:facet>
+
+            <apex:facet name="footer">column footer</apex:facet>
+
+            <apex:outputText value="{!Re_Result.Link__c}"/>
+
+        </apex:column>
+       
+       <apex:column >
+
+                <apex:facet name="header">Snippet</apex:facet>
+
+            <apex:facet name="footer">column footer</apex:facet>
+
+            <apex:outputText value="{!Re_Result.Snippet__c}"/>
+
+        </apex:column>
+
+    </apex:dataTable>
+    
+    
+</apex:component>
